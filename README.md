@@ -50,7 +50,7 @@ SELECT
 FROM netflix
 GROUP BY 1;
 ```
-
+![Alt text](plots/solution1.png)
 **Objective:** Determine the distribution of content types on Netflix.
 
 ### 2. Find the Most Common Rating for Movies and TV Shows
