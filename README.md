@@ -107,6 +107,7 @@ WHERE country IS NOT NULL
 ORDER BY total_content DESC
 LIMIT 5;
 ```
+![Alt text](plots/solution4.png)
 
 **Objective:** Identify the top 5 countries with the highest number of content items.
 
@@ -167,6 +168,7 @@ SELECT
 FROM netflix
 GROUP BY 1;
 ```
+![Alt text](plots/solution9.png)
 
 **Objective:** Count the number of content items in each genre.
 
@@ -188,6 +190,7 @@ GROUP BY country, release_year
 ORDER BY avg_release DESC
 LIMIT 5;
 ```
+![Alt text](plots/solution10.png)
 
 **Objective:** Calculate and rank years by the average number of content releases by India.
 
@@ -234,6 +237,7 @@ GROUP BY actor
 ORDER BY COUNT(*) DESC
 LIMIT 10;
 ```
+![Alt text](plots/solution14.png)
 
 **Objective:** Identify the top 10 actors with the most appearances in Indian-produced movies.
 
